@@ -37,3 +37,23 @@ div li button {
   margin: 0 15px;
   background: #ca4949;
 }
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form-div div{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+
+.form-div div button{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
